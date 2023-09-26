@@ -1,0 +1,68 @@
+.square {
+  width: 150px;
+  height: 150px;
+  border: 1px solid rgb(0, 0, 0);
+  padding: 10px;
+  margin: 0px;
+  background-color: #ff075a;
+  border-radius: 5px;
+  color: rgb(0, 0, 0);
+  font-size: 40px;
+}
+.square:hover {
+  background-color: #eb0d99;
+  transition: 1s;
+}
+.logo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 1px solid rgb(0, 0, 0);
+  margin: 10px;
+  padding: 20px;
+  background-image: linear-gradient(to right, #eb0d99, #440389);
+  color: rgb(0, 0, 0);
+  margin-top: -60px;
+}
+
+.logo:hover {
+  transform: scale(1.1);
+  transition: 1s;
+}
+.status {
+  width: 120px;
+  height: 30px;
+  border: 1px solid #eb0d99;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 10px;
+  font-size: 20px;
+  color: #eb0d99;
+  float: right;
+}
+.navn {
+  text-align: center;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(to right, #de0dc6, #a210f7);
+  background-size: 100%;
+}
+.footer {
+  text-align: center;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(to right, #de0dc6, #a210f7);
+  background-size: 100%;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  font-size: 30px;
+}
+
+.navn:hover {
+  transform: scale(1.1);
+  transition: 1s;
+}
+* {
+  background-color: #5a02b9;
+}
